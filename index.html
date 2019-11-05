@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<!--  Last Published: Fri Oct 25 2019 03:42:28 GMT+0000 (UTC)  -->
+<html data-wf-page="5d92cef43cfc5c23e81d2d4c" data-wf-site="5d92ce8e9461c33d97feafcf">
+
+<head>
+    <meta charset="utf-8">
+    <title>Estrategia Crecimiento</title>
+    <meta content="Estrategia Crecimiento Sitio Web" property="og:title">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/components.css" rel="stylesheet" type="text/css">
+    <link href="css/calia.css" rel="stylesheet" type="text/css">
+    <link href="https://via.placeholder.com/1000x600.png?text=IMAGE" rel="shortcut icon" type="image/x-icon">
+    <link href="https://via.placeholder.com/1000x600.png?text=IMAGE" rel="apple-touch-icon">
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script>
+        Highcharts.getJSON(
+  'https://cdn.jsdelivr.net/gh/highcharts/highcharts@v7.0.0/samples/data/usdeur.json',
+  function (data) {
+
+    Highcharts.chart('container', {
+      chart: {
+        zoomType: 'x'
+      },
+      title: {
+        text: 'USD to EUR exchange rate over time'
+      },
+      subtitle: {
+        text: document.ontouchstart === undefined ?
+          'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
+      },
+      xAxis: {
+        type: 'datetime'
+      },
+      yAxis: {
+        title: {
+          text: 'Exchange rate'
+        }
+      },
+      legend: {
+        enabled: false
+      },
+      plotOptions: {
+        area: {
+          fillColor: {
+            linearGradient: {
+              x1: 0,
+              y1: 0,
+              x2: 0,
+              y2: 1
+            },
+            stops: [
+              [0, Highcharts.getOptions().colors[0]],
+              [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+            ]
+          },
+          marker: {
+            radius: 2
+          },
+          lineWidth: 1,
+          states: {
+            hover: {
+              lineWidth: 1
+            }
+          },
+          threshold: null
+        }
+      },
+
+      series: [{
+        type: 'area',
+        name: 'USD to EUR',
+        data: data
+      }]
+    });
+  }
+);
+    </script>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="navigation-section position-absolute">
+        <div class="navigation-overlay"></div>
+        <div class="navigation-and-offcanvas">
+            <div class="col no-margin-bottom lg-5 md-basis-uato">
+                <nav class="navigation-menu"><a href="" class="nav-link w--current">Home</a><a href="" class="nav-link">Nosotros</a>
+                    <div data-hover="1" data-delay="0" data-w-id="83a36909-9554-440b-ec90-d232c2c0c83d" class="nav-dropdown w-dropdown">
+                        <div class="nav-dropdown-toggle w-dropdown-toggle">
+                            <a href="" class="nav-link-block w-inline-block">
+                                <div>Servicios</div>
+                                <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+                            </a>
+                        </div>
+                        <nav class="dropdown-list w-dropdown-list"><a href="" class="dropdown-link w-dropdown-link">Transformación financiera</a><a href="" class="dropdown-link w-dropdown-link">Finanzas</a><a href="" class=dropdown-link w-dropdown-link">Estrategia financiera</a><a href="" class="dropdown-link w-dropdown-link">Inversión familiar</a></nav>
+                    </div>
+                </nav>
+            </div>
+            <div class="col lg-2 md-basis-auto md-order-first no-margin-bottom-lg"><a href="#" class="brand margin-left-right-24px w-inline-block"><img src="images/logo-es.svg" alt=""></a></div>
+            <div class="col no-margin-bottom lg-5">
+                <nav class="navigation-menu justify-end"><a href="" class="nav-link">Documentación</a><a href"" class="nav-link">Contacto</a>
+                    <a data-w-id="e02ef0fd-d341-7eaf-5ed3-b53528c9af97" href="" class="button-primary animated is-small alignself-center is-dark md-margin-top-small w-inline-block">
+                        <div class="button-primary-text">Ver más</div>
+                        <div class="button-primary-text for-hover">let&#x27;s go <span class="fa margin-left"></span></div>
+                    </a>
+                </nav>
+            </div>
+            <a data-w-id="83a36909-9554-440b-ec90-d232c2c0c85f" href="#" class="c-nav__close-button w-inline-block">
+                <div class="iconfont is-offcanvas-close-button"><em class="iconfont__no-italize"></em></div>
+            </a>
+        </div>
+        <div class="mobile-navigation-bar"><a href="#" class="brand w-inline-block"><img src="images/logo-es.svg" width="35" alt="" class="logo-image">
+                <div class="logotype">Estrategia crecimiento</div>
+            </a>
+            <a data-w-id="83a36909-9554-440b-ec90-d232c2c0c868" href="#" class="burger-button w-inline-block">
+                <div class="iconfont is-burger"><em class="iconfont__no-italize"></em></div>
+            </a>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Hero Start -->
+    <div class="section is-hero position-relative bg-hero2 overflow-hidden md-sm-xs-no-padding-bottom">
+        <div class="container">
+            <div data-w-id="8708aa6a-d8d4-e3ac-bb7f-f062078774e3" style="-webkit-transform:translate3d(0, 100PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(5px)" class="col lg-5 md-12">
+                <h1 class="c-herotext__main">Bienvenido al Fondo de ESTRATEGIA CRECIMIENTO</h1>
+                <!--div class="color-dark text-medium margin-bottom">We believe financial advice is about more than just having a plan. It’s about having the right plan for you.</div-->
+                <a data-w-id="cf285295-027b-25e0-3964-b91a419e5388" href="#" class="button-primary animated is-white w-inline-block">
+                    <div style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" class="button-primary-text">Más sobre nosotros</div>
+                    <div style="opacity:0;display:block;-webkit-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-primary-text for-hover">leer más<span class="fa margin-left"></span></div>
+                </a>
+            </div>
+            <div class="col lg-7"></div>
+        </div>
+        <div data-w-id="bfddaba7-bdf9-7caf-a9f9-b00b1d0a3a8a" style="-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(5px)" class="decoration-rightside img-hero2">
+		<!--img src="https://via.placeholder.com/1000x600.png?text=IMAGE 1200w" sizes="(max-width: 991px) 100vw, 990px" alt="" class="hero-image-2"-->
+		<img src="images/man-pointing-min.png" sizes="(max-width: 991px) 100vw, 990px" alt="" class="hero-image-2">
+		</div>
+        <div class="decoration-rightside decor-img2"></div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="col block-centered lg-8 md-12 text-align-center">
+                <h2>Estrategia Crecimiento</h2>
+                <div class="text-medium low-text-contrast">Este es un producto desarrollado por <a href="https://www.nobilis.com.uy/" target="_blank">Nobilis</a>, orientado específicamente a las necesidades de los <b>inversores uruguayos</b>, que buscan una <b>rentabilidad atractiva</b> (5% a 7% en Dólares) sin asumir riesgos significativos. </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col lg-12 text-align-center"><a href="#" class="position-relative w-inline-block w-lightbox">
+				 <!--img src="https://via.placeholder.com/1000x600.png?text=IMAGE 900w" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 947px) 95vw, 900px" alt=""-->
+                 <!--iframe src="https://www.youtube.com/watch?v=VfzacaTvkRE" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="528px" width="940px" allowfullscreen></iframe-->
+                 <iframe height="528px" width="940px" src="https://www.youtube.com/embed/VfzacaTvkRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-mobile"></iframe>
+                </div>
+        </div>
+    </div>
+    <div class="section has-bg-accent">
+        <div class="container margin-bottom-quad">
+            <div class="col lg-5 alignself-center md-12">
+                <div class="pre-title">Estrategia Crecimiento</div>
+                <h2>¿Cómo lograr la rentabilidad que usted busca?</h2>
+                <p class="low-text-contrast text-medium">
+				ESTRATEGIA CRECIMIENTO es un fondo que invierte en productos financieros de alta calidad a nivel mundial que le permiten acceder a mejores niveles de rentabilidad.
+
+				Los fondos de inversión constituyen hoy la principal modalidad de colocación a nivel mundial. Hoy, los fondos de inversión captan ahorros equivalentes a más del 50% del PBI mundial.
+
+				Los resultados están a la vista. </p>
+                <a data-w-id="8f4d69e5-b8ce-97df-5a1b-3cfdfd580f57" href="#" class="button-primary animated w-inline-block">
+                    <div style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" class="button-primary-text">Ver más</div>
+                    <div style="opacity:0;display:block;-webkit-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-primary-text for-hover">let&#x27;s go <span class="fa margin-left"></span></div>
+                </a>
+            </div>
+            <div class="col lg-1 no-margin-bottom"></div>
+            <div class="col lg-6 md-12">
+                <div class="w-layout-grid c-services">
+                    <a data-w-id="fa761249-6d2b-3e34-3938-d628130e0297" href="#" class="c-services__card has-shadow has-hover-style-1 w-inline-block">
+                        <div class="c-services__card-outer">
+                            <div class="c-services__card-inner"><img src="https://via.placeholder.com/1000x600.png?text=IMAGE" width="64" alt="" class="margin-bottom">
+                                <h4 class="c-services__header">Tabla Callan</h4>
+                                <div class="margin-bottom is-body-text">Curabitur blandit tempus porttitor donec id elit non </div>
+                                <div class="iconfont"><em class="iconfont__no-italize"></em></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-w-id="7890ee21-a296-58b8-3cc2-d2e7ceddf8ff" href="#" class="c-services__card has-shadow has-hover-style-1 slidedown w-inline-block">
+                        <div class="c-services__card-outer">
+                            <div class="c-services__card-inner"><img src="https://via.placeholder.com/1000x600.png?text=IMAGE" width="64" alt="" class="margin-bottom">
+                                <h4 class="c-services__header">Recomendaciones legales</h4>
+                                <div class="margin-bottom is-body-text">Nullam id dolor id nibh ultricies vehicula ut id elit</div>
+                                <div class="iconfont"><em class="iconfont__no-italize"></em></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-w-id="73e38929-1fed-4e43-33b4-534bd46306bf" href="#" class="c-services__card has-shadow has-hover-style-1 w-inline-block">
+                        <div class="c-services__card-outer">
+                            <div class="c-services__card-inner"><img src="https://via.placeholder.com/1000x600.png?text=IMAGE" width="64" alt="" class="margin-bottom">
+                                <h4 class="c-services__header">Manejo de inversiones</h4>
+                                <div class="margin-bottom is-body-text">Curabitur blandit tempus porttitor donec id elit non </div>
+                                <div class="iconfont"><em class="iconfont__no-italize"></em></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-w-id="c3535d5d-8c5e-f24f-ac16-fa52fe089ca1" href="#" class="c-services__card has-shadow has-hover-style-1 slidedown w-inline-block">
+                        <div class="c-services__card-outer">
+                            <div class="c-services__card-inner"><img src="https://via.placeholder.com/1000x600.png?text=IMAGE" width="64" alt="" class="margin-bottom">
+                                <h4 class="c-services__header">Servicios de negocio</h4>
+                                <div class="margin-bottom is-body-text">Nullam id dolor id nibh ultricies vehicula ut id elit</div>
+                                <div class="iconfont"><em class="iconfont__no-italize"></em></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col lg-4 md-12">
+                <h2>Nuestro proceso</h2>
+                <div class="text-medium">Our goal is to get to know you and your goals, so we can provide guidance for the best financial decisions for you and also your family&#x27;s future and well being</div>
+            </div>
+            <div class="col lg-8 md-12">
+                <div class="container position-relative md-margin-bottom container-nested">
+                    <div class="c-process__line is-brand-color-2 hidden-md"></div>
+                    <div class="col lg-3 md-6 md-margin-bottom-quad xs-12">
+                        <div class="margin-bottom-double text-align-center">
+                            <div class="c-process__step-no is-brand-color-2"></div>
+                        </div>
+                        <h4>Discovery meeting</h4>
+                        <div class="text-small">Nullam id dolor id nibh ultricies vehicula ut id elit commodo Donec ullamcorper nulla non </div>
+                    </div>
+                    <div class="col lg-3 md-6 md-margin-bottom-quad xs-12">
+                        <div class="margin-bottom-double text-align-center">
+                            <div class="c-process__step-no is-brand-color-2"></div>
+                        </div>
+                        <h4>Investment plan</h4>
+                        <div class="text-small">Donec ullamcorper nulla non metus auctor fringilla Dolor sit amet, consectetur </div>
+                    </div>
+                    <div class="col lg-3 md-6 xs-12">
+                        <div class="margin-bottom-double text-align-center">
+                            <div class="c-process__step-no is-brand-color-2"></div>
+                        </div>
+                        <h4>Mutual comitment</h4>
+                        <div class="text-small">Cum sociis natoque penatiAenean eu leo quam. Pellentesque ornare sem lacinia</div>
+                    </div>
+                    <div class="col lg-3 md-6 xs-12">
+                        <div class="margin-bottom-double text-align-center">
+                            <div class="c-process__step-no is-brand-color-2"></div>
+                        </div>
+                        <h4>60-day follow up</h4>
+                        <div class="text-small">Curabitur blandit tempus porttitor Vehicula ut id elitAenean eu leo </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section no-padding-bottom">
+        <div class="container flexh-align-center">
+            <div class="col no-margin-bottom lg-6 md-12 order-last">
+                <!--img src="images/grafica.jpg" alt=""-->
+                <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+            </div>
+            <div class="col no-margin-bottom lg-6 position-relative md-12">
+			 <div class="is-bold">Estrategia Crecimiento</div>
+                <div class="text-large weight-is-thin margin-bottom">Es un producto inédito en nuestro país por su alcance mundial. Le permite a usted acceder en forma simple a los beneficios de los mercados desarrollados con un altísimo nivel de diversificación. Ha sido específicamente diseñado para quienes desean incrementar su patrimonio a lo largo del tiempo.</div>
+              
+            </div>
+        </div>
+        <div class="container">
+            <div class="col lg-12 no-margin-bottom">
+                <div class="hr"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+       
+    </div>
+    <div class="section no-padding-top-bottom">
+        <div class="container is-wide">
+            <div class="col lg-12 no-margin-bottom">
+                <div class="c-imageblock-link img2">
+                    <div class="container container-nested h100">
+                        <div class="col lg-8 md-12"></div>
+                        <div class="col no-margin-bottom lg-4 md-12 is-body-text-color">
+                            <div class="c-imageblock-link__text margin-bottom is-heading-color">¿Cómo disminuir su riesgo?</div>
+                            <div class="margin-bottom-double">Todo inversor lo sabe: la diversificación es esencial para mitigar el riesgo. ¿Qué tal si su inversión se diversificara en más de 1000 colocaciones diferentes y en más de 50 países?</div><a href="#" class="cta-link"><span class="margin-right">Ver más</span> <span class="fa c-cta1_arrow-hovered"></span> <span class="fa c-cta1__arrow-normal"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="col lg-6 md-12">
+                <h2>Nuestro impacto en números</h2>
+            </div>
+            <div class="col lg-1 hidden-md"></div>
+            <div class="col lg-3 md-6 xs-12">
+                <div>Fusce dapibus maaecenas faucibus mollis interdumb </div>
+            </div>
+            <div class="col lg-3 md-6 xs-12">
+                <div>Fusce dapibus lorem tellus ac cursus commodo ipsum</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col lg-3 md-6 xs-12">
+                <div class="c-counter has-shadow is-featured">
+                    <div class="flexh-space-between flexh-align-center margin-bottom">
+                        <div class="weight-is-medium">ROI</div><img src="https://via.placeholder.com/1000x600.png?text=IMAGE" width="32" alt="">
+                    </div>
+                    <div class="text-xlarge text-align-center">28%</div>
+                    <div class="text-align-center text-small">micro &amp; macro indicators</div>
+                </div>
+            </div>
+            <div class="col lg-3 md-6 xs-12">
+                <div class="c-counter has-shadow">
+                    <div class="flexh-space-between flexh-align-center margin-bottom">
+                        <div class="weight-is-medium">Portfolio</div><img src="https://via.placeholder.com/1000x600.png?text=IMAGE" width="32" alt="">
+                    </div>
+                    <div class="text-xlarge text-align-center is-heading-color">$17 <span class="text-small">Billion</span></div>
+                    <div class="text-align-center text-small">of sucessful investment</div>
+                </div>
+            </div>
+            <div class="col lg-3 md-6 xs-12">
+                <div class="c-counter has-shadow">
+                    <div class="flexh-space-between flexh-align-center margin-bottom">
+                        <div class="weight-is-medium">Hedgefund</div><img src="https://via.placeholder.com/1000x600.png?text=IMAGE" width="32" alt="">
+                    </div>
+                    <div class="text-xlarge text-align-center is-heading-color">928</div>
+                    <div class="text-align-center text-small">business partnerships</div>
+                </div>
+            </div>
+            <div class="col lg-3 md-6 xs-12">
+                <div class="c-counter has-shadow">
+                    <div class="flexh-space-between flexh-align-center margin-bottom">
+                        <div class="weight-is-medium">Experience</div><img src="https://via.placeholder.com/1000x600.png?text=IMAGE" width="32" alt="">
+                    </div>
+                    <div class="text-xlarge text-align-center is-heading-color">17 <span class="text-small">Years</span></div>
+                    <div class="text-align-center text-small">of succesful investing</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section has-bg-accent">
+        <div class="container">
+            <div class="col lg-7 md-12 block-centered text-align-center">
+                <h2>Artículos y documentación</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col lg-4 md-12">
+                <div class="c-gridpost__card"><img src="https://via.placeholder.com/1000x600.png?text=IMAGE 1200w" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 95vw, 29vw" alt="" class="c-gridpost__image">
+                    <div class="c-gridpost__category style3"><a href="#" class="c-gridpost__category-link">finance</a> / <a href="#" class="c-gridpost__category-link">investment</a></div>
+                    <a href="#" class="c-gridpost__clickable w-inline-block">
+                        <div class="c-gridpost__text style2">
+                            <h3 class="margin-bottom"> Ficha Técnica Mensual Estrategia Crecimiento Fondo de Inversión</h3>
+                            <div class="text-small low-text-contrast">07 June 2020</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col lg-4 md-12">
+                <div class="c-gridpost__card"><img src="https://via.placeholder.com/1000x600.png?text=IMAGE 1000w" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 95vw, 29vw" alt="" class="c-gridpost__image">
+                    <div class="c-gridpost__category style3"><a href="#" class="c-gridpost__category-link">Wealth</a> / <a href="#" class="c-gridpost__category-link">retirement plan</a></div>
+                    <a href="#" class="c-gridpost__clickable w-inline-block">
+                        <div class="c-gridpost__text style2">
+                            <h3 class="margin-bottom"> Prospecto Estrategia Crecimiento Fondo de Inversión</h3>
+                            <div class="text-small low-text-contrast">07 June 2020</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col lg-4 md-12">
+                <div class="c-gridpost__card"><img src="https://via.placeholder.com/1000x600.png?text=IMAGE" alt="" class="c-gridpost__image">
+                    <div class="c-gridpost__category style3"><a href="#" class="c-gridpost__category-link">management</a> / <a href="#" class="c-gridpost__category-link">family</a></div>
+                    <a href="#" class="c-gridpost__clickable w-inline-block">
+                        <div class="c-gridpost__text style2">
+                            <h3 class="margin-bottom"> Reglamento Estrategia Crecimiento Fondo de Inversión</h3>
+                            <div class="text-small low-text-contrast">07 June 2020</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section no-padding-bottom margin-bottom--120 has-bg-accent no-padding-top">
+        <div class="container is-narrow">
+            <div class="col block-centered lg-10 md-12">
+            </div>
+        </div>
+    </div>
+    <!-- Footer Start -->
+    <footer class="section section-footer-dark padding-bottom-16">
+        <div class="container margin-bottom">
+            <div class="col lg-2 md-12 md-order-first"><img src="images/logo.svg" alt=""></div>
+            <div class="col lg-6 md-12 no-margin-bottom-lg">
+                <div class="container container-nested">
+                    <!--div class="col lg-4 md-12 no-margin-bottom-lg">
+                        <h4 class="on-dark">Company</h4><a href="#" class="footer-nav-link on-dark">About</a><a href="#" class="footer-nav-link on-dark">Services</a><a href="#" class="footer-nav-link on-dark">Career</a><a href="#" class="footer-nav-link on-dark">Sitemap</a><a href="#" class="footer-nav-link on-dark">Terms of privacy</a>
+                    </div>
+                    <div class="col lg-4 md-12 no-margin-bottom-lg">
+                        <h4 class="on-dark">Finance services</h4><a href="#" class="footer-nav-link on-dark">Finance transformation</a><a href="#" class="footer-nav-link on-dark">Lean finance</a><a href="#" class="footer-nav-link on-dark">Finance strategy</a><a href="#" class="footer-nav-link on-dark">Post—merger finance integration</a>
+                    </div>
+                    <div class="col lg-4 md-12 no-margin-bottom">
+                        <h4 class="on-dark">Industries</h4><a href="#" class="footer-nav-link on-dark">Building and Construction</a><a href="#" class="footer-nav-link on-dark">Consumer Markets</a><a href="#" class="footer-nav-link on-dark">Defence and Aerospace</a><a href="#" class="footer-nav-link on-dark">Family enterprise</a>
+                    </div>
+                </div-->
+				<div class="col lg-4 md-12 no-margin-bottom-lg">
+                        <h4 class="on-dark">Compañía</h4><a href="#" class="footer-nav-link on-dark">Nosotros</a><a href="#" class="footer-nav-link on-dark">Servicios</a><a href="#" class="footer-nav-link on-dark">Trabajar con nosotros</a>
+                    </div>
+                    <div class="col lg-4 md-12 no-margin-bottom-lg">
+                        <h4 class="on-dark">Documentación</h4><a href="#" class="footer-nav-link on-dark">Resolución del Banco Central</a><a href="#" class="footer-nav-link on-dark">Proespecto Estrategia Crecimiento</a>
+                    </div>
+                    <div class="col lg-4 md-12 no-margin-bottom">
+                        <h4 class="on-dark">Website</h4><a href="#" class="footer-nav-link on-dark">Sitemap</a><a href="#" class="footer-nav-link on-dark">Contacto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col lg-4 md-12 no-margin-bottom">
+                <div class="w-form">
+                    <div class="w-form-done">
+                        <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                        <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                </div>
+                <div class="flexh-space-between">
+                    <a href="#" class="c-social on-dark w-inline-block">
+                        <div class="fa-brand"></div>
+                    </a>
+                    <a href="#" class="c-social on-dark w-inline-block">
+                        <div class="fa-brand"></div>
+                    </a>
+                    <a href="#" class="c-social on-dark w-inline-block">
+                        <div class="fa-brand"></div>
+                    </a>
+                    <a href="#" class="c-social on-dark w-inline-block">
+                        <div class="fa-brand"></div>
+                    </a>
+                    <a href="#" class="c-social on-dark w-inline-block">
+                        <div class="fa-brand"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col lg-12 margin-bottom">
+                <div class="hr on-dark"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col lg-6 no-margin-bottom md-12 md-order-last">
+                <div class="low-text-contrast text-small flexh-space-between md-flex-vertical">
+                    <div class="md-order-last">©2019 Estrategia Crecimiento. </div><a href="#" class="footer-bottom-link">Política de privacidad</a><a href="#" class="footer-bottom-link">Términos de servicio</a>
+                </div>
+            </div>
+            <div class="col lg-6 no-margin-bottom md-12">
+                <div class="w100 text-align-right footer-bottom md-text-align-left margin-bottom">Montevideo, Uruguay</div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="js/calia.js" type="text/javascript"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+
+</html>
